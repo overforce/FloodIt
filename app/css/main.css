@@ -28,17 +28,6 @@ body {
   transition: box-shadow 1s;
   transition: box-shadow 1s, -webkit-box-shadow 1s; }
 
-.home {
-  font-size: 22px;
-  text-decoration: none;
-  color: #E5EFF0;
-  font-family: 'arial';
-  position: absolute;
-  top: 20px;
-  font-weight: 300;
-  left: 40px;
-  text-shadow: 0 0 10px #00E5FF; }
-
 .cell {
   -webkit-transition: .2s;
   transition: .2s;
