@@ -1,0 +1,69 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #010101;
+  -webkit-transition: background-color .4s;
+  transition: background-color .4s; }
+  body:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    opacity: .9; }
+
+.grid {
+  margin-top: 30px;
+  height: 600px;
+  width: 600px;
+  position: relataive;
+  border-collapse: collapse;
+  -webkit-transition: -webkit-box-shadow 1s;
+  transition: -webkit-box-shadow 1s;
+  transition: box-shadow 1s;
+  transition: box-shadow 1s, -webkit-box-shadow 1s; }
+
+.home {
+  font-size: 22px;
+  text-decoration: none;
+  color: #E5EFF0;
+  font-family: 'arial';
+  position: absolute;
+  top: 20px;
+  font-weight: 300;
+  left: 40px;
+  text-shadow: 0 0 10px #00E5FF; }
+
+.cell {
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer; }
+  .cell:hover {
+    -webkit-box-shadow: inset 0 0 10px rgba(34, 34, 34, 0.5);
+    box-shadow: inset 0 0 10px rgba(34, 34, 34, 0.5); }
+
+.reset {
+  font-size: 40px;
+  padding: 0px 5px;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 20px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #ffffff;
+  text-shadow: 0 0 10px #00E5FF;
+  -webkit-transition: .3s;
+  transition: .3s; }
+  .reset:hover {
+    text-shadow: 0 0 12px #33eaff; }

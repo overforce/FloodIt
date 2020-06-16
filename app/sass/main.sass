@@ -1,3 +1,55 @@
-@import 'base/_mixins'
-@import 'base/_reset'
-@import 'base/_fonts'
+body
+	display: flex
+	justify-content: center
+	background-color: #010101
+	transition: background-color .4s
+	&:after
+		position: absolute
+		z-index: -1
+		content: ''
+		height: 100%
+		width: 100%
+		background: #000000
+		opacity: .9
+
+.grid
+	margin-top: 30px
+	height: 600px
+	width: 600px
+	position: relataive
+	border-collapse: collapse
+	transition: box-shadow 1s
+
+
+.home
+	font-size: 22px
+	text-decoration: none
+	color: #E5EFF0
+	font-family: 'arial'
+	position: absolute
+	top: 20px
+	font-weight: 300
+	left: 40px
+	text-shadow: 0 0 10px #00E5FF
+
+.cell
+	transition: .2s
+	cursor: pointer
+	&:hover
+		box-shadow: inset 0 0 10px rgba(#222222,.5)
+
+.reset
+	font-size: 40px
+	padding: 0px 5px
+	cursor: pointer
+	position: absolute
+	margin-left: 330px
+	margin-top: 20px
+	transform: rotate(90deg)
+	user-select: none
+	cursor: pointer
+	color: #ffffff
+	text-shadow: 0 0 10px #00E5FF
+	transition: .3s
+	&:hover
+		text-shadow: 0 0 12px lighten(#00E5FF, 10)
