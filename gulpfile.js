@@ -69,22 +69,13 @@ const pngquant = require('imagemin-pngquant')
     // css libs
 
       var csslibs = [
-		'app/libs/normalize.css/normalize.css',
-		'app/libs/bootstrap/dist/css/bootstrap-grid.min.css',
-		'app/libs/animate.css/animate.min.css',
-		'app/libs/magnific-popup/dist/magnific-popup.css',
-		'app/libs/slick-slider/slick/slick.css',
-		'app/libs/slick-slider/slick/slick-theme.css',
+		'app/libs/normalize.css/normalize.css'
       ]
 
     // js libs
 
       var jslibs = [
-        'app/libs/jquery/dist/jquery.min.js',
-        'app/libs/wowjs/dist/wow.min.js',
-        'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
-		    'app/libs/slick-slider/slick/slick.min.js',
-        'app/libs/mixitup/dist/mixitup.min.js',
+        'app/libs/jquery/dist/jquery.min.js'
       ]
 
     // pipe libs
